@@ -17,8 +17,6 @@ const nextConfig = {
     ],
   },
 
-  
-   
   // Custom environment variable validation
   webpack(config, { isServer }) {
     if (isServer) {
